@@ -3,7 +3,7 @@ Asterisk-Allstar-for-Arch-odroid
 
 ArchLinux package for Allstar (https://allstarlink.org) on the Odroid X,X2,X3,U or U2
 
-Need to load packages with pacman e.g pacmac -S svn wget libusb-compat
+Need to load packages with pacman e.g pacman -S svn wget libusb-compat
 
 Either download the asterisk-allstar-pi-0.1.0.0-1505-armv7h.pkg.tar.xz package or build you own using "makepkg".
 
