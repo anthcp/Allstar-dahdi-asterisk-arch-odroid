@@ -1,14 +1,14 @@
 # Contributor: VK2ACP <anthcp@gmail.com>
 
-pkgname=asterisk-allstar-pi
+pkgname=asterisk-allstar-odroid
 pkgver=0.1.0.0
 pkgrel=1505
 pkgdesc="Asterisk with allstar mods"
-arch=('armv6h')
+arch=('armv7h')
 url="http://www.asterisk.org/"
 license=('GPL2')
 depends=('dahdi-allstar' 'libusb' 'perl' 'svn' 'libusb-compat' 'alsa-lib')
-makedepends=('linux-headers')
+makedepends=('linux-headers-odroid')
 conflicts=('zaptel')
 install="${pkgname}.install"
 source=("svn+http://svn.ohnosec.org/svn/projects/allstar/astsrc-1.4.23-pre/#revision=${pkgrel}"
@@ -40,7 +40,7 @@ package() {
 # vim:set ts=2 sw=2 et:
 md5sums=('SKIP'
          '0f7b95440d8fe3b8a48d8fa5a1568c03'
-         '900c48d8232dd5917772fd0784a9fd74'
+         '3fc24f4791aa366b5edaedfe82db991a'
          'c93dabeb37dfa6f566e84a1ceac639ca'
          '561982f8031886355f83e0ccef214508'
          'cfcb5fa559c08c257ed8db8a35249d6e'
