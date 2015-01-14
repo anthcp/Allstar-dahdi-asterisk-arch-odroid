@@ -1,4 +1,4 @@
-Asterisk-Allstar-for-Arch-pi
+Asterisk-Allstar-for-Arch-odroid
 ============================
 
 ArchLinux package for Allstar (https://allstarlink.org) on the Odroid X,X2,X3,U or U2
